@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180E20A6214B65AA00D9D9C2 /* ImageShopUSM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 180E20A4214B65AA00D9D9C2 /* ImageShopUSM.cpp */; };
 		182004E52111618F00920F45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182004E42111618F00920F45 /* AppDelegate.m */; };
 		182004E82111618F00920F45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182004E72111618F00920F45 /* ViewController.m */; };
 		182004EB2111618F00920F45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182004E92111618F00920F45 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		182004F32111619100920F45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182004F22111619100920F45 /* main.m */; };
 		182004FD2111619100920F45 /* TestGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182004FC2111619100920F45 /* TestGitTests.m */; };
 		182005082111619100920F45 /* TestGitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182005072111619100920F45 /* TestGitUITests.m */; };
+		183C14632137CD54002DB228 /* TestStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C14622137CD54002DB228 /* TestStackView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180E20A4214B65AA00D9D9C2 /* ImageShopUSM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ImageShopUSM.cpp; sourceTree = "<group>"; };
+		180E20A5214B65AA00D9D9C2 /* ImageShopUSM.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ImageShopUSM.hpp; sourceTree = "<group>"; };
 		182004E02111618F00920F45 /* TestGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		182004E32111618F00920F45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		182004E42111618F00920F45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,9 @@
 		182005032111619100920F45 /* TestGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182005072111619100920F45 /* TestGitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGitUITests.m; sourceTree = "<group>"; };
 		182005092111619100920F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183846D221129AFB00188271 /* CustomConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomConfig.h; sourceTree = "<group>"; };
+		183C14612137CD54002DB228 /* TestStackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestStackView.h; sourceTree = "<group>"; };
+		183C14622137CD54002DB228 /* TestStackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestStackView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,11 @@
 				182004E42111618F00920F45 /* AppDelegate.m */,
 				182004E62111618F00920F45 /* ViewController.h */,
 				182004E72111618F00920F45 /* ViewController.m */,
+				183C14612137CD54002DB228 /* TestStackView.h */,
+				183C14622137CD54002DB228 /* TestStackView.m */,
+				180E20A4214B65AA00D9D9C2 /* ImageShopUSM.cpp */,
+				180E20A5214B65AA00D9D9C2 /* ImageShopUSM.hpp */,
+				183846D221129AFB00188271 /* CustomConfig.h */,
 				182004E92111618F00920F45 /* Main.storyboard */,
 				182004EC2111619100920F45 /* Assets.xcassets */,
 				182004EE2111619100920F45 /* LaunchScreen.storyboard */,
@@ -265,6 +277,8 @@
 				182004E82111618F00920F45 /* ViewController.m in Sources */,
 				182004F32111619100920F45 /* main.m in Sources */,
 				182004E52111618F00920F45 /* AppDelegate.m in Sources */,
+				183C14632137CD54002DB228 /* TestStackView.m in Sources */,
+				180E20A6214B65AA00D9D9C2 /* ImageShopUSM.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
